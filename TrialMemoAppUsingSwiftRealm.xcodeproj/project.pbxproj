@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ECEE270383C79B3FC0E5DD9 /* Pods_TrialMemoAppUsingSwiftRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455D167C154C2F7CDCEC6D0 /* Pods_TrialMemoAppUsingSwiftRealm.framework */; };
 		9A6CD7D81C873B9B0065372E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CD7D71C873B9B0065372E /* AppDelegate.swift */; };
 		9A6CD7DA1C873B9B0065372E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CD7D91C873B9B0065372E /* MasterViewController.swift */; };
 		9A6CD7DC1C873B9B0065372E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CD7DB1C873B9B0065372E /* DetailViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0455D167C154C2F7CDCEC6D0 /* Pods_TrialMemoAppUsingSwiftRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrialMemoAppUsingSwiftRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88527D2D309EE33E5DDA19C2 /* Pods-TrialMemoAppUsingSwiftRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrialMemoAppUsingSwiftRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrialMemoAppUsingSwiftRealm/Pods-TrialMemoAppUsingSwiftRealm.release.xcconfig"; sourceTree = "<group>"; };
 		9A6CD7D41C873B9B0065372E /* TrialMemoAppUsingSwiftRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrialMemoAppUsingSwiftRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6CD7D71C873B9B0065372E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A6CD7D91C873B9B0065372E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		9A6CD7F51C873B9B0065372E /* TrialMemoAppUsingSwiftRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialMemoAppUsingSwiftRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6CD7F91C873B9B0065372E /* TrialMemoAppUsingSwiftRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialMemoAppUsingSwiftRealmUITests.swift; sourceTree = "<group>"; };
 		9A6CD7FB1C873B9B0065372E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67BA1E723BE6470E3732E43 /* Pods-TrialMemoAppUsingSwiftRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrialMemoAppUsingSwiftRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrialMemoAppUsingSwiftRealm/Pods-TrialMemoAppUsingSwiftRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECEE270383C79B3FC0E5DD9 /* Pods_TrialMemoAppUsingSwiftRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50E0CC09CC302720C61BB190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0455D167C154C2F7CDCEC6D0 /* Pods_TrialMemoAppUsingSwiftRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		811F05AECE29BA7B30D2BBB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A67BA1E723BE6470E3732E43 /* Pods-TrialMemoAppUsingSwiftRealm.debug.xcconfig */,
+				88527D2D309EE33E5DDA19C2 /* Pods-TrialMemoAppUsingSwiftRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9A6CD7CB1C873B9B0065372E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				9A6CD7ED1C873B9B0065372E /* TrialMemoAppUsingSwiftRealmTests */,
 				9A6CD7F81C873B9B0065372E /* TrialMemoAppUsingSwiftRealmUITests */,
 				9A6CD7D51C873B9B0065372E /* Products */,
+				811F05AECE29BA7B30D2BBB2 /* Pods */,
+				50E0CC09CC302720C61BB190 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A6CD7FE1C873B9B0065372E /* Build configuration list for PBXNativeTarget "TrialMemoAppUsingSwiftRealm" */;
 			buildPhases = (
+				8CC159D15BE1D3377CF6674F /* Check Pods Manifest.lock */,
 				9A6CD7D01C873B9B0065372E /* Sources */,
 				9A6CD7D11C873B9B0065372E /* Frameworks */,
 				9A6CD7D21C873B9B0065372E /* Resources */,
+				DD24F68109227E81AFF3C899 /* Embed Pods Frameworks */,
+				D18476746190EB57D06A6EE0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +223,7 @@
 				TargetAttributes = {
 					9A6CD7D31C873B9B0065372E = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = N6HCZ324GJ;
+						DevelopmentTeam = MVT2R584L2;
 					};
 					9A6CD7E91C873B9B0065372E = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CC159D15BE1D3377CF6674F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D18476746190EB57D06A6EE0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrialMemoAppUsingSwiftRealm/Pods-TrialMemoAppUsingSwiftRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD24F68109227E81AFF3C899 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrialMemoAppUsingSwiftRealm/Pods-TrialMemoAppUsingSwiftRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A6CD7D01C873B9B0065372E /* Sources */ = {
@@ -402,25 +477,31 @@
 		};
 		9A6CD7FF1C873B9B0065372E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67BA1E723BE6470E3732E43 /* Pods-TrialMemoAppUsingSwiftRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TrialMemoAppUsingSwiftRealm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.takahashi.trialapp.TrialMemoAppUsingSwiftRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		9A6CD8001C873B9B0065372E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88527D2D309EE33E5DDA19C2 /* Pods-TrialMemoAppUsingSwiftRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TrialMemoAppUsingSwiftRealm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.takahashi.trialapp.TrialMemoAppUsingSwiftRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -491,6 +572,7 @@
 				9A6CD8001C873B9B0065372E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A6CD8011C873B9B0065372E /* Build configuration list for PBXNativeTarget "TrialMemoAppUsingSwiftRealmTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +581,7 @@
 				9A6CD8031C873B9B0065372E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A6CD8041C873B9B0065372E /* Build configuration list for PBXNativeTarget "TrialMemoAppUsingSwiftRealmUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +590,7 @@
 				9A6CD8061C873B9B0065372E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
