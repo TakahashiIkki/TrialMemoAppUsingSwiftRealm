@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0ECEE270383C79B3FC0E5DD9 /* Pods_TrialMemoAppUsingSwiftRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455D167C154C2F7CDCEC6D0 /* Pods_TrialMemoAppUsingSwiftRealm.framework */; };
+		5167934F1C89040A0066F955 /* ManagementIdCounterRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5167934E1C89040A0066F955 /* ManagementIdCounterRealm.swift */; };
+		5175E37C1C888085002096C3 /* DateTimeLogRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175E37B1C888085002096C3 /* DateTimeLogRealm.swift */; };
 		9A6CD7D81C873B9B0065372E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CD7D71C873B9B0065372E /* AppDelegate.swift */; };
 		9A6CD7DA1C873B9B0065372E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CD7D91C873B9B0065372E /* MasterViewController.swift */; };
 		9A6CD7DC1C873B9B0065372E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CD7DB1C873B9B0065372E /* DetailViewController.swift */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		0455D167C154C2F7CDCEC6D0 /* Pods_TrialMemoAppUsingSwiftRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrialMemoAppUsingSwiftRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5167934E1C89040A0066F955 /* ManagementIdCounterRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagementIdCounterRealm.swift; sourceTree = "<group>"; };
+		5175E37B1C888085002096C3 /* DateTimeLogRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeLogRealm.swift; sourceTree = "<group>"; };
 		88527D2D309EE33E5DDA19C2 /* Pods-TrialMemoAppUsingSwiftRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrialMemoAppUsingSwiftRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrialMemoAppUsingSwiftRealm/Pods-TrialMemoAppUsingSwiftRealm.release.xcconfig"; sourceTree = "<group>"; };
 		9A6CD7D41C873B9B0065372E /* TrialMemoAppUsingSwiftRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrialMemoAppUsingSwiftRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6CD7D71C873B9B0065372E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				9A6CD7D71C873B9B0065372E /* AppDelegate.swift */,
 				9A6CD7D91C873B9B0065372E /* MasterViewController.swift */,
 				9A6CD7DB1C873B9B0065372E /* DetailViewController.swift */,
+				5167934E1C89040A0066F955 /* ManagementIdCounterRealm.swift */,
+				5175E37B1C888085002096C3 /* DateTimeLogRealm.swift */,
 				9A6CD7DD1C873B9B0065372E /* Main.storyboard */,
 				9A6CD7E01C873B9B0065372E /* Assets.xcassets */,
 				9A6CD7E21C873B9B0065372E /* LaunchScreen.storyboard */,
@@ -338,6 +344,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A6CD7DC1C873B9B0065372E /* DetailViewController.swift in Sources */,
+				5175E37C1C888085002096C3 /* DateTimeLogRealm.swift in Sources */,
+				5167934F1C89040A0066F955 /* ManagementIdCounterRealm.swift in Sources */,
 				9A6CD7DA1C873B9B0065372E /* MasterViewController.swift in Sources */,
 				9A6CD7D81C873B9B0065372E /* AppDelegate.swift in Sources */,
 			);
