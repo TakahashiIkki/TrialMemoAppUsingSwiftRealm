@@ -7,12 +7,12 @@
 //
 
 import UIKit
+import RealmSwift
 
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
     var objects = [AnyObject]()
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,9 +38,23 @@ class MasterViewController: UITableViewController {
     }
 
     func insertNewObject(sender: AnyObject) {
-        objects.insert(NSDate(), atIndex: 0)
+        let now = NSDate()
+        objects.insert(now, atIndex: 0)
         let indexPath = NSIndexPath(forRow: 0, inSection: 0)
         self.tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+        insertNewRealmData(objects.count, date: now)
+    }
+    
+    func insertNewRealmData(id: Int, date: NSDate) {
+        print(id)
+//        let dateTimeLog = DateTimeLog()
+//        dateTimeLog.id = id
+//        dateTimeLog.date = date
+//        
+//        let realm = try! Realm()
+//        try! realm.write {
+//            realm.add(dateTimeLog)
+//        }
     }
 
     // MARK: - Segues
