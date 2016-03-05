@@ -16,5 +16,4 @@ class ManagementIdCounter: Object {
         return "objectName"
     }
     
-    
 }

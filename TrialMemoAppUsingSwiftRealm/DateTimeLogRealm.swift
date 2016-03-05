@@ -9,7 +9,7 @@
 import RealmSwift
 
 class DateTimeLog: Object {
-    dynamic var id = 0
+    dynamic var id = ""
     dynamic var date = NSDate()
     
     static var maxId = 0
